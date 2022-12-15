@@ -1,5 +1,5 @@
 body{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     color: #434455;
     cursor: pointer;
 }
@@ -15,7 +15,6 @@ body{
 
 .web {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: calc(24/18);
@@ -26,7 +25,6 @@ body{
 }
 .studio {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: calc(24/18);
@@ -36,8 +34,6 @@ body{
     color: var(--black-color);
 }
 .title-studio{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: calc(24/16);
@@ -53,8 +49,6 @@ body{
 }
 
 .title-portfolio {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: calc(24/16);
@@ -70,8 +64,6 @@ body{
 }
 
 .title-contacts {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: calc(24/16);
@@ -87,8 +79,6 @@ body{
 }
 
 .email {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: calc(24/16);
@@ -101,9 +91,6 @@ body{
 }
 
 .phone {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(24/16);
     line-height: 24px;
@@ -118,8 +105,6 @@ body{
     background-color: var(--black-color);
 }
 .title-solutions {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 56px;
     line-height: calc(60/56);
@@ -128,8 +113,6 @@ body{
     color: var(--white-color);
 }
 .button-order-service {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: calc(19/16);
@@ -142,8 +125,6 @@ body{
 .title-skills {
 }
 .title-strategy {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: calc(24/20);
@@ -151,17 +132,12 @@ body{
     color: var(--black-color);
 }
 .text-strategy {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(24/16);
     letter-spacing: 0.02em;
     color: var(--brand-black-color);
 }
 .title-punctuality {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: calc(24/20);
@@ -169,17 +145,12 @@ body{
     color: var(--black-color);
 }
 .text-punctuality {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(24/16);
     letter-spacing: 0.02em;
     color: var(--brand-black-color);
 }
 .title-diligence {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: calc(24/20);
@@ -187,17 +158,12 @@ body{
     color: var(--black-color);
 }
 .text-diligence {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(24/16);
     letter-spacing: 0.02em;
     color: var(--brand-black-color);
 }
 .title-technologies {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: calc(24/20);
@@ -205,17 +171,12 @@ body{
     color: var(--black-color);
 }
 .text-technologies {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(24/16);
     letter-spacing: 0.02em;
     color: var(--brand-black-color);
 }
 .title-doing {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 36px;
     line-height: calc(40/36);
@@ -225,8 +186,6 @@ body{
     color: var(--black-color);
 }
 .title-team {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 36px;
     line-height: calc(40/36);
@@ -236,8 +195,6 @@ body{
     color: var(--black-color);
 }
 .name-mark {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: calc(24/20);
@@ -246,9 +203,6 @@ body{
     color: var(--black-color);
 }
 .text-mark {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(24/16);
     text-align: center;
@@ -256,8 +210,6 @@ body{
     color: var(--brand-black-color);
 }
 .name-tom {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: calc(24/20);
@@ -266,9 +218,6 @@ body{
     color: var(--black-color);
 }
 .text-tom {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(24/16);
     text-align: center;
@@ -276,8 +225,6 @@ body{
     color: var(--brand-black-color);
 }
 .name-camila {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: calc(24/20);
@@ -286,9 +233,6 @@ body{
     color: var(--black-color);
 }
 .text-camila {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(24/16);
     text-align: center;
@@ -296,8 +240,6 @@ body{
     color: var(--brand-black-color);
 }
 .name-daniel {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: calc(24/20);
@@ -306,9 +248,6 @@ body{
     color: var(--black-color);
 }
 .text-daniel {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(24/16);
     text-align: center;
@@ -317,7 +256,6 @@ body{
 }
 .web2 {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: calc(21/18);
@@ -328,7 +266,6 @@ body{
 }
 .studio2 {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
@@ -338,9 +275,6 @@ body{
     color: var(--white-studio-color);
 }
 .text-footer {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(24/16);
     letter-spacing: 0.02em;
@@ -355,8 +289,6 @@ body{
 
 
 .button-all {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: calc(24/16);
@@ -366,8 +298,6 @@ body{
     color: var(--white-color);
 }
 .button-web-site {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: calc(24/16);
@@ -377,8 +307,6 @@ body{
     color: var(--blue-color);
 }
 .button-app {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: calc(24/16);
@@ -388,8 +316,6 @@ body{
     color: var(--blue-color);
 }
 .button-design {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: calc(24/16);
@@ -399,8 +325,6 @@ body{
     color: var(--blue-color);
 }
 .button-marketing {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: calc(24/16);
@@ -410,8 +334,6 @@ body{
     color: var(--blue-color);
 }
 .title-banking {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: calc(24/20);
@@ -420,9 +342,6 @@ body{
     color: var(--black-color);
 }
 .text-banking {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(24/16);
     text-align: center;
@@ -430,8 +349,6 @@ body{
     color: var(--brand-black-color);
 }
 .title-cashless {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: calc(24/20);
@@ -440,9 +357,6 @@ body{
     color: var(--black-color);
 }
 .text-cashless {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(24/16);
     text-align: center;
@@ -450,8 +364,6 @@ body{
     color: var(--brand-black-color);
 }
 .title-meditation {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: calc(24/20);
@@ -460,9 +372,6 @@ body{
     color: var(--black-color);
 }
 .text-meditation {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(24/16);
     text-align: center;
@@ -470,8 +379,6 @@ body{
     color: var(--brand-black-color);
 }
 .title-taxi {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: calc(24/20);
@@ -480,9 +387,6 @@ body{
     color: var(--black-color);
 }
 .text-taxi {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(24/16);
     text-align: center;
@@ -490,8 +394,6 @@ body{
     color: var(--brand-black-color);
 }
 .title-screen {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: calc(24/20);
@@ -500,9 +402,6 @@ body{
     color: var(--black-color);
 }
 .text-screen {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(24/16);
     text-align: center;
@@ -510,8 +409,6 @@ body{
     color: var(--brand-black-color);
 }
 .title-online-courses {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: calc(24/20);
@@ -520,9 +417,6 @@ body{
     color: var(--black-color);
 }
 .text-online-courses {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(24/16);
     text-align: center;
@@ -530,8 +424,6 @@ body{
     color: var(--brand-black-color);
 }
 .title-instagram {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: calc(24/20);
@@ -540,9 +432,6 @@ body{
     color: var(--black-color);
 }
 .text-instragram {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(24/16);
     text-align: center;
@@ -550,8 +439,6 @@ body{
     color: var(--brand-black-color);
 }
 .title-organic-food {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: calc(24/20);
@@ -560,9 +447,6 @@ body{
     color: var(--black-color);
 }
 .text-organic-food {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(24/16);
     text-align: center;
@@ -570,8 +454,6 @@ body{
     color: var(--brand-black-color);
 }
 .title-fresh-coffee {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: calc(24/20);
@@ -580,9 +462,6 @@ body{
     color: var(--black-color);
 }
 .text-fresh-coffee {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(24/16);
     text-align: center;
