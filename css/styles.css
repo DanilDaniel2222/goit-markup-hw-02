@@ -18,7 +18,7 @@ body{
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
+    line-height: calc(24/18);
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -29,7 +29,7 @@ body{
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
+    line-height: calc(24/18);
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -40,7 +40,7 @@ body{
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     letter-spacing: 0.02em;
     color: var(--black-color);
 }
@@ -57,7 +57,7 @@ body{
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     letter-spacing: 0.02em;
     color: var(--black-color);
 }
@@ -74,7 +74,7 @@ body{
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     letter-spacing: 0.02em;
     color: var(--black-color);
 }
@@ -91,7 +91,7 @@ body{
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     letter-spacing: 0.02em;
     color: var(--brand-black-color);
 }
@@ -105,7 +105,7 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     line-height: 24px;
     color: var(--brand-black-color);
 }
@@ -122,7 +122,7 @@ body{
     font-style: normal;
     font-weight: 600;
     font-size: 56px;
-    line-height: 60px;
+    line-height: calc(60/56);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--white-color);
@@ -132,7 +132,7 @@ body{
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 19px;
+    line-height: calc(19/16);
     align-items: center;
     letter-spacing: 0.04em;
     color: var(--white-color);
@@ -146,7 +146,7 @@ body{
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
+    line-height: calc(24/20);
     letter-spacing: 0.02em;
     color: var(--black-color);
 }
@@ -155,7 +155,7 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     letter-spacing: 0.02em;
     color: var(--brand-black-color);
 }
@@ -164,7 +164,7 @@ body{
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
+    line-height: calc(24/20);
     letter-spacing: 0.02em;
     color: var(--black-color);
 }
@@ -173,7 +173,7 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     letter-spacing: 0.02em;
     color: var(--brand-black-color);
 }
@@ -182,7 +182,7 @@ body{
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
+    line-height: calc(24/20);
     letter-spacing: 0.02em;
     color: var(--black-color);
 }
@@ -191,7 +191,7 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     letter-spacing: 0.02em;
     color: var(--brand-black-color);
 }
@@ -200,7 +200,7 @@ body{
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
+    line-height: calc(24/20);
     letter-spacing: 0.02em;
     color: var(--black-color);
 }
@@ -209,7 +209,7 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     letter-spacing: 0.02em;
     color: var(--brand-black-color);
 }
@@ -218,7 +218,7 @@ body{
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
-    line-height: 40px;
+    line-height: calc(40/36);
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -229,7 +229,7 @@ body{
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
-    line-height: 40px;
+    line-height: calc(40/36);
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -240,7 +240,7 @@ body{
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
+    line-height: calc(24/20);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--black-color);
@@ -250,7 +250,7 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--brand-black-color);
@@ -260,7 +260,7 @@ body{
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
+    line-height: calc(24/20);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--black-color);
@@ -270,7 +270,7 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--brand-black-color);
@@ -280,7 +280,7 @@ body{
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
+    line-height: calc(24/20);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--black-color);
@@ -290,7 +290,7 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--brand-black-color);
@@ -300,7 +300,7 @@ body{
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
+    line-height: calc(24/20);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--black-color);
@@ -310,7 +310,7 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--brand-black-color);
@@ -320,7 +320,7 @@ body{
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
+    line-height: calc(21/18);
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -342,7 +342,7 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     letter-spacing: 0.02em;
     color: var(--white-footer-color);
 }
@@ -359,7 +359,7 @@ body{
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
@@ -370,7 +370,7 @@ body{
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
@@ -381,7 +381,7 @@ body{
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
@@ -392,7 +392,7 @@ body{
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
@@ -403,7 +403,7 @@ body{
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
@@ -414,7 +414,7 @@ body{
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
+    line-height: calc(24/20);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--black-color);
@@ -424,7 +424,7 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--brand-black-color);
@@ -434,7 +434,7 @@ body{
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
+    line-height: calc(24/20);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--black-color);
@@ -444,7 +444,7 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--brand-black-color);
@@ -454,7 +454,7 @@ body{
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
+    line-height: calc(24/20);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--black-color);
@@ -464,7 +464,7 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--brand-black-color);
@@ -474,7 +474,7 @@ body{
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
+    line-height: calc(24/20);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--black-color);
@@ -484,7 +484,7 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--brand-black-color);
@@ -494,7 +494,7 @@ body{
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
+    line-height: calc(24/20);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--black-color);
@@ -504,7 +504,7 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--brand-black-color);
@@ -514,7 +514,7 @@ body{
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
+    line-height: calc(24/20);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--black-color);
@@ -524,7 +524,7 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--brand-black-color);
@@ -534,7 +534,7 @@ body{
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
+    line-height: calc(24/20);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--black-color);
@@ -544,7 +544,7 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--brand-black-color);
@@ -554,7 +554,7 @@ body{
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
+    line-height: calc(24/20);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--black-color);
@@ -564,7 +564,7 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--brand-black-color);
@@ -574,7 +574,7 @@ body{
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
+    line-height: calc(24/20);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--black-color);
@@ -584,7 +584,7 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--brand-black-color);
