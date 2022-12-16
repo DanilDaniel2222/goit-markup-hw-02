@@ -1,15 +1,15 @@
 body{
     font-family: 'Roboto', sans-serif;
     color: #434455;
-    cursor: pointer;
 }
 
 :root{
     --brand-black-color: #434455;
     --black-color: #2E2F42;
     --blue-color: #4D5AE5;
+    --blue-color-2: #404BBF;
     --white-color: #FFFFFF;
-    --white-studio-color: #F4F4FD;
+    --white-color-2: #F4F4FD;
     --white-footer-color: #E7E9FC;
 }
 
@@ -22,6 +22,7 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--blue-color);
+    text-decoration: none;
 }
 .studio {
     font-family: 'Raleway';
@@ -32,13 +33,22 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--black-color);
+    text-decoration: none;
+    
+}
+
+.list-main{
+    list-style: none;
 }
 .title-studio{
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: calc(24/16);
     letter-spacing: 0.02em;
     color: var(--black-color);
+    text-decoration: none;
+    
+    
 }
 .title-studio:hover, 
 .title-studio:focus{
@@ -49,11 +59,13 @@ body{
 }
 
 .title-portfolio {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: calc(24/16);
     letter-spacing: 0.02em;
     color: var(--black-color);
+    text-decoration: none;
+    
 }
 .title-portfolio:hover, 
 .title-portfolio:focus{
@@ -63,12 +75,17 @@ body{
     color: var(--blue-color);
 }
 
+.list-contacts{
+    list-style: none;
+}
 .title-contacts {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: calc(24/16);
     letter-spacing: 0.02em;
     color: var(--black-color);
+    text-decoration: none;
+    
 }
 .title-contacts:hover, 
 .title-contacts:focus{
@@ -79,11 +96,13 @@ body{
 }
 
 .email {
-    font-weight: 600;
+    font-weight: 400;
     font-size: 16px;
     line-height: calc(24/16);
     letter-spacing: 0.02em;
     color: var(--brand-black-color);
+    text-decoration: none;
+    list-style: none;
 }
 .email:hover,
 .email:focus{
@@ -91,10 +110,13 @@ body{
 }
 
 .phone {
+    font-weight: 400;
     font-size: 16px;
     line-height: calc(24/16);
     line-height: 24px;
     color: var(--brand-black-color);
+    text-decoration: none;
+    list-style: none;
 }
 .phone:hover,
 .phone:focus{
@@ -105,7 +127,7 @@ body{
     background-color: var(--black-color);
 }
 .title-solutions {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 56px;
     line-height: calc(60/56);
     text-align: center;
@@ -116,16 +138,37 @@ body{
     font-weight: 600;
     font-size: 16px;
     line-height: calc(19/16);
-    align-items: center;
     letter-spacing: 0.04em;
     color: var(--white-color);
+    cursor: pointer;
+    background-color: var(--blue-color);
+}
+.button-order-service:hover,
+.button-order-service:focus,
+.button-order-service:active{
+    color: var(--white-color);
+    background-color: var(--blue-color-2);
 }
 
 
-.title-skills {
+
+.visually-hidden-skills {
+    position: absolute;
+      white-space: nowrap;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      border: 0;
+      padding: 0;
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      margin: -1px;
+  } 
+.list-skills{
+    list-style: none;
 }
 .title-strategy {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 20px;
     line-height: calc(24/20);
     letter-spacing: 0.02em;
@@ -138,7 +181,7 @@ body{
     color: var(--brand-black-color);
 }
 .title-punctuality {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 20px;
     line-height: calc(24/20);
     letter-spacing: 0.02em;
@@ -151,7 +194,7 @@ body{
     color: var(--brand-black-color);
 }
 .title-diligence {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 20px;
     line-height: calc(24/20);
     letter-spacing: 0.02em;
@@ -164,7 +207,7 @@ body{
     color: var(--brand-black-color);
 }
 .title-technologies {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 20px;
     line-height: calc(24/20);
     letter-spacing: 0.02em;
@@ -176,8 +219,12 @@ body{
     letter-spacing: 0.02em;
     color: var(--brand-black-color);
 }
+.studio-images-1{
+    list-style: none;
+}
+
 .title-doing {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 36px;
     line-height: calc(40/36);
     text-align: center;
@@ -185,8 +232,15 @@ body{
     text-transform: capitalize;
     color: var(--black-color);
 }
+
+.studio-images-2{
+    list-style: none;
+}
+.background-studio-images-2{
+    background-color: var(--white-color-2);
+}
 .title-team {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 36px;
     line-height: calc(40/36);
     text-align: center;
@@ -263,6 +317,7 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--blue-color);
+    text-decoration: none;
 }
 .studio2 {
     font-family: 'Raleway';
@@ -272,7 +327,8 @@ body{
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--white-studio-color);
+    color: var(--white-color-2);
+    text-decoration: none;
 }
 .text-footer {
     font-size: 16px;
@@ -288,15 +344,26 @@ body{
 
 
 
+.list-button{
+    list-style: none;
+}
 .button-all {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: calc(24/16);
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
     color: var(--white-color);
+    cursor: pointer;
+    background-color: var(--blue-color);
 }
+.button-all:hover,
+.button-all:focus,
+.button-all:active{
+    background-color: var(--blue-color-2);
+}
+
 .button-web-site {
     font-weight: 600;
     font-size: 16px;
@@ -305,7 +372,17 @@ body{
     text-align: center;
     letter-spacing: 0.04em;
     color: var(--blue-color);
+    cursor: pointer;
+    background-color: var(--white-color-2);
 }
+.button-web-site:hover,
+.button-web-site:focus,
+.button-web-site:active{
+    color: var(--white-color);
+    background-color: var(--blue-color-2);
+}
+
+
 .button-app {
     font-weight: 600;
     font-size: 16px;
@@ -314,7 +391,17 @@ body{
     text-align: center;
     letter-spacing: 0.04em;
     color: var(--blue-color);
+    cursor: pointer;
+    background-color: var(--white-color-2);
 }
+.button-app:hover,
+.button-app:focus,
+.button-app:active{
+    color: var(--white-color);
+    background-color: var(--blue-color-2);
+}
+
+
 .button-design {
     font-weight: 600;
     font-size: 16px;
@@ -323,7 +410,17 @@ body{
     text-align: center;
     letter-spacing: 0.04em;
     color: var(--blue-color);
+    cursor: pointer;
+    background-color: var(--white-color-2);
 }
+.button-design:hover,
+.button-design:focus,
+.button-design:active{
+    color: var(--white-color);
+    background-color: var(--blue-color-2);
+}
+
+
 .button-marketing {
     font-weight: 600;
     font-size: 16px;
@@ -332,6 +429,41 @@ body{
     text-align: center;
     letter-spacing: 0.04em;
     color: var(--blue-color);
+    cursor: pointer;
+    background-color: var(--white-color-2);
+}
+.button-marketing:hover,
+.button-marketing:focus,
+.button-marketing:active{
+    color: var(--white-color);
+    background-color: var(--blue-color-2);
+}
+
+
+.title-portfolio-main{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(40/36);
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--black-color);
+}
+.visually-hidden-skills {
+    position: absolute;
+      white-space: nowrap;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      border: 0;
+      padding: 0;
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      margin: -1px;
+  } 
+
+.portfolio-images{
+    list-style: none;
 }
 .title-banking {
     font-weight: 600;

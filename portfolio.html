@@ -5,26 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap');
+    </style>
     <title>Portfolio</title>
 </head>
 <body>
     <header>
         <nav>
             <a href="" class="web">WEB<span class="studio">STUDIO</span></a>
-            <ul>
+            <ul class="list-main">
                 <li><a href="./index.html" class="title-studio">Studio</a></li>
                 <li><a href="./portfolio.html" class="title-portfolio">Portfolio</a></li>
                 <li><a href="" class="title-contacts">Contacts</a></li>
             </ul>
         </nav>
-        <ul>
+        <ul class="list-contacts">
             <li><a href="mailto:info@devstudio.com" class="email">info@devstudio.com</a></li>
             <li><a href="tel:+110001111111" class="phone">+11 (000) 111-11-11</a></li>
         </ul>
     </header>
     <main>
         <section>
-            <ul>
+            <ul class="list-button">
                 <li><button type="button" class="button-all">All</button></li>
                 <li><button type="button" class="button-web-site">Web Site</button></li>
                 <li><button type="button" class="button-app">App</button></li>
@@ -33,7 +39,8 @@
             </ul>
         </section>
         <section>
-            <ul>
+            <h1 class="visually-hidden-skills" class="title-portfolio-main">Portfolio</h1>
+            <ul class="portfolio-images">
                 <li>
                     <img src="./images/bank-app.jpg" alt="BankApp" width="360">
                     <h3 class="title-banking">Banking App Interface Concept</h3>
@@ -52,7 +59,7 @@
             </ul>
         </section>
         <section>
-            <ul>
+            <ul class="portfolio-images">
                 <li>
                     <img src="./images/taxi-service.jpg" alt="Taxe Service" width="360">
                     <h3 class="title-taxi">Taxi Service</h3>
@@ -71,7 +78,7 @@
             </ul>
         </section>
         <section>
-            <ul>
+            <ul class="portfolio-images">
                 <li>
                     <img src="./images/instagram-stories-concept.jpg" alt="Instagram Stories Concept" width="360">
                     <h3 class="title-instagram">Instagram Stories Concept</h3>
@@ -90,11 +97,9 @@
             </ul>
         </section>
     </main>
-    <footer>
-        <section class="background-footer">
+    <footer class="background-footer">
             <a href="" class="web2">WEB<span class="studio2">STUDIO</span></a>
             <p class="text-footer">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
-        </section>
     </footer>
 </body>
 </html>
