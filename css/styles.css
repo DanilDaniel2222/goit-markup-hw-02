@@ -1,6 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
-    color: #434455;
+    color: var(--brand-black-color);
 }
 
 :root{
@@ -52,7 +52,7 @@ body{
 }
 .title-studio:hover, 
 .title-studio:focus{
-    color: var(--brand-color);
+    color: var(--brand-black-color);
 }
 .title-studio:active{
     color: var(--blue-color);
@@ -69,7 +69,7 @@ body{
 }
 .title-portfolio:hover, 
 .title-portfolio:focus{
-    color: var(--brand-color);
+    color: var(--brand-black-color);
 }
 .title-portfolio:active{
     color: var(--blue-color);
@@ -89,7 +89,7 @@ body{
 }
 .title-contacts:hover, 
 .title-contacts:focus{
-    color: var(--brand-color);
+    color: var(--brand-black-color);
 }
 .title-contacts:active{
     color: var(--blue-color);
@@ -106,6 +106,9 @@ body{
 }
 .email:hover,
 .email:focus{
+    color: var(--brand-black-color);
+}
+.email:active{
     color: var(--blue-color);
 }
 
@@ -120,6 +123,9 @@ body{
 }
 .phone:hover,
 .phone:focus{
+    color: var(--brand-black-color);
+}
+.phone:active{
     color: var(--blue-color);
 }
 
@@ -135,6 +141,7 @@ body{
     color: var(--white-color);
 }
 .button-order-service {
+    font-family: inherit;
     font-weight: 600;
     font-size: 16px;
     line-height: calc(19/16);
@@ -146,7 +153,6 @@ body{
 .button-order-service:hover,
 .button-order-service:focus,
 .button-order-service:active{
-    color: var(--white-color);
     background-color: var(--blue-color-2);
 }
 
@@ -236,7 +242,7 @@ body{
 .studio-images-2{
     list-style: none;
 }
-.background-studio-images-2{
+.background-studio-people-1{
     background-color: var(--white-color-2);
 }
 .title-team {
@@ -247,6 +253,9 @@ body{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--black-color);
+}
+.background-studio-people-2{
+    background-color: var(--white-color);
 }
 .name-mark {
     font-weight: 600;
@@ -348,23 +357,26 @@ body{
     list-style: none;
 }
 .button-all {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: calc(24/16);
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-    color: var(--white-color);
+    color: var(--blue-color);
     cursor: pointer;
-    background-color: var(--blue-color);
+    background-color: var(--white-color-2);
 }
 .button-all:hover,
 .button-all:focus,
 .button-all:active{
+    color: var(--white-color);
     background-color: var(--blue-color-2);
 }
 
 .button-web-site {
+    font-family: inherit;
     font-weight: 600;
     font-size: 16px;
     line-height: calc(24/16);
@@ -384,6 +396,7 @@ body{
 
 
 .button-app {
+    font-family: inherit;
     font-weight: 600;
     font-size: 16px;
     line-height: calc(24/16);
@@ -403,6 +416,7 @@ body{
 
 
 .button-design {
+    font-family: inherit;
     font-weight: 600;
     font-size: 16px;
     line-height: calc(24/16);
@@ -422,6 +436,7 @@ body{
 
 
 .button-marketing {
+    font-family: inherit;
     font-weight: 600;
     font-size: 16px;
     line-height: calc(24/16);
@@ -450,7 +465,7 @@ body{
     color: var(--black-color);
 }
 .visually-hidden-skills {
-    position: absolute;
+      position: absolute;
       white-space: nowrap;
       width: 1px;
       height: 1px;
@@ -466,7 +481,7 @@ body{
     list-style: none;
 }
 .title-banking {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 20px;
     line-height: calc(24/20);
     text-align: center;
@@ -481,7 +496,7 @@ body{
     color: var(--brand-black-color);
 }
 .title-cashless {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 20px;
     line-height: calc(24/20);
     text-align: center;
@@ -496,7 +511,7 @@ body{
     color: var(--brand-black-color);
 }
 .title-meditation {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 20px;
     line-height: calc(24/20);
     text-align: center;
@@ -511,7 +526,7 @@ body{
     color: var(--brand-black-color);
 }
 .title-taxi {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 20px;
     line-height: calc(24/20);
     text-align: center;
@@ -526,7 +541,7 @@ body{
     color: var(--brand-black-color);
 }
 .title-screen {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 20px;
     line-height: calc(24/20);
     text-align: center;
@@ -541,7 +556,7 @@ body{
     color: var(--brand-black-color);
 }
 .title-online-courses {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 20px;
     line-height: calc(24/20);
     text-align: center;
@@ -556,7 +571,7 @@ body{
     color: var(--brand-black-color);
 }
 .title-instagram {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 20px;
     line-height: calc(24/20);
     text-align: center;
@@ -571,7 +586,7 @@ body{
     color: var(--brand-black-color);
 }
 .title-organic-food {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 20px;
     line-height: calc(24/20);
     text-align: center;
@@ -586,7 +601,7 @@ body{
     color: var(--brand-black-color);
 }
 .title-fresh-coffee {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 20px;
     line-height: calc(24/20);
     text-align: center;
