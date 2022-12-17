@@ -51,9 +51,7 @@ body{
     
 }
 .title-studio:hover, 
-.title-studio:focus{
-    color: var(--brand-black-color);
-}
+.title-studio:focus,
 .title-studio:active{
     color: var(--blue-color);
 }
@@ -68,9 +66,7 @@ body{
     
 }
 .title-portfolio:hover, 
-.title-portfolio:focus{
-    color: var(--brand-black-color);
-}
+.title-portfolio:focus,
 .title-portfolio:active{
     color: var(--blue-color);
 }
@@ -88,9 +84,7 @@ body{
     
 }
 .title-contacts:hover, 
-.title-contacts:focus{
-    color: var(--brand-black-color);
-}
+.title-contacts:focus,
 .title-contacts:active{
     color: var(--blue-color);
 }
@@ -105,9 +99,7 @@ body{
     list-style: none;
 }
 .email:hover,
-.email:focus{
-    color: var(--brand-black-color);
-}
+.email:focus,
 .email:active{
     color: var(--blue-color);
 }
@@ -122,9 +114,7 @@ body{
     list-style: none;
 }
 .phone:hover,
-.phone:focus{
-    color: var(--brand-black-color);
-}
+.phone:focus,
 .phone:active{
     color: var(--blue-color);
 }
