@@ -38,26 +38,28 @@ body{
 }
 
 
-
 .list-studio{
+    list-style: none;
+}
+.list-studio-title{
     font-weight: 500;
     font-size: 16px;
     line-height: calc(24/16);
     letter-spacing: 0.02em;
     color: var(--black-color);
     text-decoration: none;
-    list-style: none;
 }
-.list-studio:hover, 
-.list-studio:focus,
-.list-studio:active{
+.list-studio-title:hover, 
+.list-studio-title:focus,
+.list-studio-title:active{
     color: var(--blue-color);
 }
 
 
-
 .list-contacts{
     list-style: none;
+}
+.list-contacts-title{
     font-weight: 400;
     font-size: 16px;
     line-height: calc(24/16);
@@ -66,9 +68,9 @@ body{
     text-decoration: none;
     list-style: none;
 }
-.list-contacts:hover,
-.list-contacts:focus,
-.list-contacts:active{
+.list-contacts-title:hover,
+.list-contacts-title:focus,
+.list-contacts-title:active{
     color: var(--blue-color);
 }
 
@@ -119,6 +121,8 @@ body{
 
 .list-skills{
     list-style: none;
+}
+.title-skills{
     font-weight: 700;
     font-size: 20px;
     line-height: calc(24/20);
