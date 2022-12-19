@@ -24,6 +24,7 @@ body{
     color: var(--blue-color);
     text-decoration: none;
 }
+
 .studio {
     font-family: 'Raleway';
     font-weight: 800;
@@ -34,62 +35,29 @@ body{
     text-transform: uppercase;
     color: var(--black-color);
     text-decoration: none;
-    
 }
 
-.list-main{
+
+
+.list-studio{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(24/16);
+    letter-spacing: 0.02em;
+    color: var(--black-color);
+    text-decoration: none;
     list-style: none;
 }
-.title-studio{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: calc(24/16);
-    letter-spacing: 0.02em;
-    color: var(--black-color);
-    text-decoration: none;
-    
-    
-}
-.title-studio:hover, 
-.title-studio:focus,
-.title-studio:active{
+.list-studio:hover, 
+.list-studio:focus,
+.list-studio:active{
     color: var(--blue-color);
 }
 
-.title-portfolio {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: calc(24/16);
-    letter-spacing: 0.02em;
-    color: var(--black-color);
-    text-decoration: none;
-    
-}
-.title-portfolio:hover, 
-.title-portfolio:focus,
-.title-portfolio:active{
-    color: var(--blue-color);
-}
+
 
 .list-contacts{
     list-style: none;
-}
-.title-contacts {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: calc(24/16);
-    letter-spacing: 0.02em;
-    color: var(--black-color);
-    text-decoration: none;
-    
-}
-.title-contacts:hover, 
-.title-contacts:focus,
-.title-contacts:active{
-    color: var(--blue-color);
-}
-
-.email {
     font-weight: 400;
     font-size: 16px;
     line-height: calc(24/16);
@@ -98,26 +66,13 @@ body{
     text-decoration: none;
     list-style: none;
 }
-.email:hover,
-.email:focus,
-.email:active{
+.list-contacts:hover,
+.list-contacts:focus,
+.list-contacts:active{
     color: var(--blue-color);
 }
 
-.phone {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: calc(24/16);
-    line-height: 24px;
-    color: var(--brand-black-color);
-    text-decoration: none;
-    list-style: none;
-}
-.phone:hover,
-.phone:focus,
-.phone:active{
-    color: var(--blue-color);
-}
+
 
 .background{
     background-color: var(--black-color);
@@ -130,6 +85,7 @@ body{
     letter-spacing: 0.02em;
     color: var(--white-color);
 }
+
 .button-order-service {
     font-family: inherit;
     font-weight: 600;
@@ -149,7 +105,7 @@ body{
 
 
 .visually-hidden-skills {
-    position: absolute;
+      position: absolute;
       white-space: nowrap;
       width: 1px;
       height: 1px;
@@ -159,65 +115,24 @@ body{
       clip: rect(0 0 0 0);
       clip-path: inset(50%);
       margin: -1px;
-  } 
+} 
+
 .list-skills{
     list-style: none;
-}
-.title-strategy {
     font-weight: 700;
     font-size: 20px;
     line-height: calc(24/20);
     letter-spacing: 0.02em;
     color: var(--black-color);
 }
-.text-strategy {
+.text-skills{
     font-size: 16px;
     line-height: calc(24/16);
     letter-spacing: 0.02em;
     color: var(--brand-black-color);
 }
-.title-punctuality {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: calc(24/20);
-    letter-spacing: 0.02em;
-    color: var(--black-color);
-}
-.text-punctuality {
-    font-size: 16px;
-    line-height: calc(24/16);
-    letter-spacing: 0.02em;
-    color: var(--brand-black-color);
-}
-.title-diligence {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: calc(24/20);
-    letter-spacing: 0.02em;
-    color: var(--black-color);
-}
-.text-diligence {
-    font-size: 16px;
-    line-height: calc(24/16);
-    letter-spacing: 0.02em;
-    color: var(--brand-black-color);
-}
-.title-technologies {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: calc(24/20);
-    letter-spacing: 0.02em;
-    color: var(--black-color);
-}
-.text-technologies {
-    font-size: 16px;
-    line-height: calc(24/16);
-    letter-spacing: 0.02em;
-    color: var(--brand-black-color);
-}
-.studio-images-1{
-    list-style: none;
-}
+
+
 
 .title-doing {
     font-weight: 700;
@@ -228,13 +143,11 @@ body{
     text-transform: capitalize;
     color: var(--black-color);
 }
-
-.studio-images-2{
+.studio-images-1{
     list-style: none;
 }
-.background-studio-people-1{
-    background-color: var(--white-color-2);
-}
+
+
 .title-team {
     font-weight: 700;
     font-size: 36px;
@@ -244,10 +157,17 @@ body{
     text-transform: capitalize;
     color: var(--black-color);
 }
+.studio-images-2{
+    list-style: none;
+}
+.background-studio-people-1{
+    background-color: var(--white-color-2);
+}
 .background-studio-people-2{
     background-color: var(--white-color);
 }
-.name-mark {
+
+.name-person {
     font-weight: 600;
     font-size: 20px;
     line-height: calc(24/20);
@@ -255,58 +175,15 @@ body{
     letter-spacing: 0.02em;
     color: var(--black-color);
 }
-.text-mark {
+.text-person {
     font-size: 16px;
     line-height: calc(24/16);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--brand-black-color);
 }
-.name-tom {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: calc(24/20);
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--black-color);
-}
-.text-tom {
-    font-size: 16px;
-    line-height: calc(24/16);
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--brand-black-color);
-}
-.name-camila {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: calc(24/20);
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--black-color);
-}
-.text-camila {
-    font-size: 16px;
-    line-height: calc(24/16);
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--brand-black-color);
-}
-.name-daniel {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: calc(24/20);
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--black-color);
-}
-.text-daniel {
-    font-size: 16px;
-    line-height: calc(24/16);
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--brand-black-color);
-}
+
+
 .web2 {
     font-family: 'Raleway';
     font-weight: 800;
@@ -322,7 +199,7 @@ body{
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: calc(21/18);
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -343,29 +220,13 @@ body{
 
 
 
-.list-button{
+
+
+
+.list-buttons{
     list-style: none;
 }
-.button-all {
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: calc(24/16);
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: var(--blue-color);
-    cursor: pointer;
-    background-color: var(--white-color-2);
-}
-.button-all:hover,
-.button-all:focus,
-.button-all:active{
-    color: var(--white-color);
-    background-color: var(--blue-color-2);
-}
-
-.button-web-site {
+.buttons{
     font-family: inherit;
     font-weight: 600;
     font-size: 16px;
@@ -377,72 +238,13 @@ body{
     cursor: pointer;
     background-color: var(--white-color-2);
 }
-.button-web-site:hover,
-.button-web-site:focus,
-.button-web-site:active{
+.buttons:hover,
+.buttons:focus,
+.buttons:active{
     color: var(--white-color);
     background-color: var(--blue-color-2);
 }
 
-
-.button-app {
-    font-family: inherit;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: calc(24/16);
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: var(--blue-color);
-    cursor: pointer;
-    background-color: var(--white-color-2);
-}
-.button-app:hover,
-.button-app:focus,
-.button-app:active{
-    color: var(--white-color);
-    background-color: var(--blue-color-2);
-}
-
-
-.button-design {
-    font-family: inherit;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: calc(24/16);
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: var(--blue-color);
-    cursor: pointer;
-    background-color: var(--white-color-2);
-}
-.button-design:hover,
-.button-design:focus,
-.button-design:active{
-    color: var(--white-color);
-    background-color: var(--blue-color-2);
-}
-
-
-.button-marketing {
-    font-family: inherit;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: calc(24/16);
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: var(--blue-color);
-    cursor: pointer;
-    background-color: var(--white-color-2);
-}
-.button-marketing:hover,
-.button-marketing:focus,
-.button-marketing:active{
-    color: var(--white-color);
-    background-color: var(--blue-color-2);
-}
 
 
 .title-portfolio-main{
@@ -467,10 +269,11 @@ body{
       margin: -1px;
   } 
 
+
 .portfolio-images{
     list-style: none;
 }
-.title-banking {
+.portfolio-image-title {
     font-weight: 700;
     font-size: 20px;
     line-height: calc(24/20);
@@ -478,127 +281,7 @@ body{
     letter-spacing: 0.02em;
     color: var(--black-color);
 }
-.text-banking {
-    font-size: 16px;
-    line-height: calc(24/16);
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--brand-black-color);
-}
-.title-cashless {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: calc(24/20);
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--black-color);
-}
-.text-cashless {
-    font-size: 16px;
-    line-height: calc(24/16);
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--brand-black-color);
-}
-.title-meditation {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: calc(24/20);
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--black-color);
-}
-.text-meditation {
-    font-size: 16px;
-    line-height: calc(24/16);
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--brand-black-color);
-}
-.title-taxi {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: calc(24/20);
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--black-color);
-}
-.text-taxi {
-    font-size: 16px;
-    line-height: calc(24/16);
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--brand-black-color);
-}
-.title-screen {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: calc(24/20);
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--black-color);
-}
-.text-screen {
-    font-size: 16px;
-    line-height: calc(24/16);
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--brand-black-color);
-}
-.title-online-courses {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: calc(24/20);
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--black-color);
-}
-.text-online-courses {
-    font-size: 16px;
-    line-height: calc(24/16);
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--brand-black-color);
-}
-.title-instagram {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: calc(24/20);
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--black-color);
-}
-.text-instragram {
-    font-size: 16px;
-    line-height: calc(24/16);
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--brand-black-color);
-}
-.title-organic-food {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: calc(24/20);
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--black-color);
-}
-.text-organic-food {
-    font-size: 16px;
-    line-height: calc(24/16);
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--brand-black-color);
-}
-.title-fresh-coffee {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: calc(24/20);
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--black-color);
-}
-.text-fresh-coffee {
+.portfolio-image-text {
     font-size: 16px;
     line-height: calc(24/16);
     text-align: center;
